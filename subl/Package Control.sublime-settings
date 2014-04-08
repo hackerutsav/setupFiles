@@ -12,6 +12,7 @@
 		"ColorSchemeSelector",
 		"CSS Color Converter",
 		"CSS Snippets",
+		"CSS3_Syntax",
 		"Dayle Rees Color Schemes",
 		"Djaneiro",
 		"HTMLAttributes",
@@ -25,16 +26,11 @@
 		"RestructuredText Improved",
 		"ScalaFormat",
 		"SideBarEnhancements",
-		"Sublime-CSS3",
 		"Theme - Flatland",
 		"Theme - Glacier",
 		"Theme - Soda",
 		"Theme - Spacegray",
 		"Themr",
 		"Tomorrow Color Schemes"
-	],
-	"repositories":
-	[
-		"https://github.com/i-akhmadullin/Sublime-CSS3"
 	]
 }

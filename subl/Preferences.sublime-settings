@@ -11,15 +11,15 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"RestructuredText",
-		"jQuery",
+		"PHP",
+		"AngularJS",
 		"All Autocomplete",
 		"Tomorrow Color Schemes",
-		"lispindent",
 		"Vintage",
+		"RestructuredText",
+		"lispindent",
 		"Backbone.js",
-		"PHP",
-		"AngularJS"
+		"jQuery"
 	],
 	"line_padding_bottom": 1,
 	"line_padding_top": 1,
