@@ -1,0 +1,37 @@
+<snippet>
+	<content><![CDATA[<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>${1:Untitled} | Canvas</title>
+	<style>
+		body { background: #F0F1EC; text-align: center; }
+		#browser {
+			margin: 30px auto; padding: 20px 0 0; position: relative;
+			background: linear-gradient(180deg, #96a0a2, #96a0a2 24px, #ffffff 24px, #ffffff);
+			box-shadow: 0 5px 20px #C3C8C9; display: inline-block;
+		}
+		#browser:before {
+			content: "\00B7\00B7\00B7"; position: absolute;
+			right: 5px; top: -18px; font-size: 50px; color: #CACECF;
+		}
+		#canvas { vertical-align: bottom; }
+	</style>
+</head>
+<body>
+	<div id="browser">
+		<canvas width="800" height="500" id="canvas"></canvas>
+	</div>
+
+		<script>
+		var canvas = document.getElementById("canvas");
+		var ctx = canvas.getContext('2d');
+
+		$0
+	</script>
+</body>
+</html>
+]]></content>
+	<tabTrigger>htmlcanvas</tabTrigger>
+	<scope>text.html</scope>
+</snippet>

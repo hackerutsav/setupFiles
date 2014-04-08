@@ -1,0 +1,62 @@
+<snippet>
+	<content><![CDATA[<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>${1:Untitled} | Canvas</title>
+	<style>
+		body { background: #F0F1EC; text-align: center; }
+		#browser {
+			margin: 30px auto; padding: 20px 0 0; position: relative;
+			background: linear-gradient(180deg, #96a0a2, #96a0a2 24px, #ffffff 24px, #ffffff);
+			box-shadow: 0 5px 20px #C3C8C9; display: inline-block;
+		}
+		#browser:before {
+			content: "\00B7\00B7\00B7"; position: absolute;
+			right: 5px; top: -18px; font-size: 50px; color: #CACECF;
+		}
+		#canvas { vertical-align: bottom; }
+	</style>
+</head>
+<body>
+	<div id="browser">
+		<video id="myVideo" autoplay="true" loop="true" style="display:none">
+			<source src="${2:videoFileName}.ogv" type="video/ogg" />
+			<source src="${2:videoFileName}.mp4" type="video/mp4" />
+			<source src="${2:videoFileName}.webm" type="video/webm" />
+		</video>
+		<canvas width="800" height="500" id="canvas"></canvas>
+	</div>
+
+	<script>
+		window.requestAnimFrame = ( function (callback) {
+			return window.requestAnimationFrame ||
+				window.webkitRequestAnimationFrame ||
+				window.mozRequestAnimationFrame ||
+				window.oRequestAnimationFrame ||
+				window.msRequestAnimationFrame ||
+				function (callback) {
+					window.setTimeout(callback, 1000 / 60);
+				};
+		}) ();
+
+		function drawFrame (context, video) {
+			context.drawImage(video, 0, 0);
+			requestAnimFrame( function () {
+				drawFrame(context, video);
+			});
+		}
+
+		var canvas = document.getElementById("canvas");
+		var video = document.getElementById("video");
+		var ctx = canvas.getContext('2d');
+		drawFrame(ctx, video);
+
+		$0
+	</script>
+</body>
+</html>
+]]></content>
+	<tabTrigger>htmlcanvasvideo</tabTrigger>
+	<scope>text.html</scope>
+</snippet>

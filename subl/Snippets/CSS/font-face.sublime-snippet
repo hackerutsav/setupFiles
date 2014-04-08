@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+@font-face {
+	font-family: '${1:name}';
+	src: url('$2${1:name}.ttf') format('truetype'),
+	     url('$2${1:name}.woff') format('woff'),
+	     url('$2${1:name}.eot') format('eot'),
+	     url('$2${1:name}.otf') format('opentype'),
+	     url('$2${1:name}.svg#${1:name}') format('svg');
+	font-weight: normal;
+	font-style: normal;$0
+}
+]]></content>
+	<tabTrigger>font-face</tabTrigger>
+	<scope>source.css</scope>
+</snippet>

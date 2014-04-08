@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[-webkit-animation: ${1:name} ${2:duration} ${3:linear|ease-in|ease-out|ease-in-out} ${4:delay} ${5:infinite|<number>} ${6:normal|alternate} ${7:none|forwards|backwards|both};
+   -moz-animation: ${1:name} ${2:duration} ${3:linear|ease-in|ease-out|ease-in-out} ${4:delay} ${5:infinite|<number>} ${6:normal|alternate} ${7:none|forwards|backwards|both};
+    -ms-animation: ${1:name} ${2:duration} ${3:linear|ease-in|ease-out|ease-in-out} ${4:delay} ${5:infinite|<number>} ${6:normal|alternate} ${7:none|forwards|backwards|both};
+     -o-animation: ${1:name} ${2:duration} ${3:linear|ease-in|ease-out|ease-in-out} ${4:delay} ${5:infinite|<number>} ${6:normal|alternate} ${7:none|forwards|backwards|both};
+        animation: ${1:name} ${2:duration} ${3:linear|ease-in|ease-out|ease-in-out} ${4:delay} ${5:infinite|<number>} ${6:normal|alternate} ${7:none|forwards|backwards|both};]]></content>
+	<tabTrigger>animation</tabTrigger>
+    <description>CSS - animation: ;</description>
+    <scope>source.css, source.less, source.scss, source.stylus</scope>
+</snippet>

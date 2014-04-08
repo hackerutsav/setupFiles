@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+<!DOCTYPE html>
+<html lang="en" ng-app>
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.8/angular.min.js"></script>
+	<meta charset="UTF-8">
+	<title>${1:Untitled}</title>
+</head>
+<body>
+	$2
+</body>
+</html>
+
+]]></content>
+	<tabTrigger>nghtml</tabTrigger>
+	<scope>text.html</scope>
+</snippet>

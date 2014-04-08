@@ -1,0 +1,40 @@
+{
+	"installed_packages":
+	[
+		"AdvancedNewFile",
+		"All Autocomplete",
+		"AngularJS",
+		"Autoprefixer",
+		"Backbone.js",
+		"Better CoffeeScript",
+		"Brainfuck",
+		"ColorPicker",
+		"ColorSchemeSelector",
+		"CSS Color Converter",
+		"CSS Snippets",
+		"Dayle Rees Color Schemes",
+		"Djaneiro",
+		"HTMLAttributes",
+		"jQuery",
+		"lispindent",
+		"Markdown Preview",
+		"Origami",
+		"PackageResourceViewer",
+		"Prolog",
+		"Restructured Text (RST) Snippets",
+		"RestructuredText Improved",
+		"ScalaFormat",
+		"SideBarEnhancements",
+		"Sublime-CSS3",
+		"Theme - Flatland",
+		"Theme - Glacier",
+		"Theme - Soda",
+		"Theme - Spacegray",
+		"Themr",
+		"Tomorrow Color Schemes"
+	],
+	"repositories":
+	[
+		"https://github.com/i-akhmadullin/Sublime-CSS3"
+	]
+}

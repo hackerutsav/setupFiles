@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+background: ${1:transparent} url('$2') ${3:left top} / ${4:100% 100%|cover|contain} ${5:repeat|no-repeat|repeat-x|repeat-y|space|round} ${6:border-box|padding-box|content-box};
+]]></content>
+	<tabTrigger>background</tabTrigger>
+	<scope>source.css</scope>
+</snippet>
