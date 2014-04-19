@@ -76,11 +76,6 @@ alias eclipse="~/.adt_bundle/eclipse/eclipse &"
 # sdcv
 alias dict="nocorrect sdcv"
 
-# codeconbat
-export COCO_TREE=~/code/gsoc/coco/codecombat
-export COCO_DB=~/code/gsoc/coco/db
-export MONGLO_DL=~/code/gsoc/mongodl
-
 # debian packaging env variables
 export DEBEMAIL="sourabh.coder@gmail.com"
 export DEBFULLNAME="Sourabh Verma"
