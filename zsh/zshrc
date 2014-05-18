@@ -8,6 +8,8 @@ ZSH_THEME="robbyrussell"
 # function to make rm [OPTIONS] -> rm [OPTIONS] -I
 function rm { /bin/rm "$@" -I; }
 
+function paccache { apt-cache search "$1" | grep "$1" }
+
 autoload -U colors && colors
 setopt correct
 export SPROMPT="Correct $fg[red]%R$reset_color to $fg[green]%r?$reset_color (Yes, No, Abort, Edit) "
@@ -16,6 +18,7 @@ export TERM='xterm-256color'
 # fasd
 eval "$(fasd --init auto)"
 alias z='nocorrect fasd_cd -d'
+unalias s
 
 # general aliases
 source $ZSH/oh-my-zsh.sh
