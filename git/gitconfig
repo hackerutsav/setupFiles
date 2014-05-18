@@ -1,0 +1,12 @@
+[user]
+	name = Sourabh Verma
+	email = sourabh.coder@gmail.com
+[core]
+	editor = nano
+[color]
+	ui = true
+[push]
+	default = simple
+[alias]
+	lol = log --graph --decorate --pretty=format:'%h | %s [%an]' --abbrev-commit
+	st = status
