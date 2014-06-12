@@ -8,5 +8,5 @@
 [push]
 	default = simple
 [alias]
-	lol = log --graph --decorate --pretty=format:'%h | %s [%an]' --abbrev-commit
+	lol = log --graph --decorate --pretty=format:'%h | %s [%Cgreen%an%Creset] [%Cred%cr%Creset]' --abbrev-commit
 	st = status

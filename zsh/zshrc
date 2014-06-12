@@ -41,7 +41,10 @@ alias zshconfig="subl ~/.zshrc"
 # appcfg.py update .
 
 # PATH
-export PATH=/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/home/sourabh/.google_appengine:/home/sourabh/.node/bin:/opt/sbt/bin:
+export PATH=/usr/lib/lightdm/lightdm:/usr/local/sbin:$PATH
+export PATH=/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:$PATH
+export PATH=/usr/games:/home/sourabh/.google_appengine:$PATH
+export PATH=/home/sourabh/.node/bin:/opt/sbt/bin:$PATH
 
 # python
 alias ipy="ipython"
@@ -72,9 +75,8 @@ export PROJECT_HOME=$HOME/Code
 source /usr/local/bin/virtualenvwrapper.sh
 
 # Android SDK path
-export PATH=/home/sourabh/.adt_bundle/sdk/tools:$PATH
-export PATH=/home/sourabh/.adt_bundle/sdk/platform-tools:$PATH
-alias eclipse="~/.adt_bundle/eclipse/eclipse &"
+export PATH=/home/sourabh/.android_sdk/tools:$PATH
+export PATH=/home/sourabh/.android_sdk/platform-tools:$PATH
 
 # sdcv
 alias dict="nocorrect sdcv"

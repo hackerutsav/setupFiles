@@ -11,16 +11,21 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
+		"All Autocomplete",
+		"RestructuredText",
+		"jQuery",
+		"ScalaFormat",
+		"PHP",
+		"Better CoffeeScript",
+		"Vintage",
+		"Color Highlighter",
+		"Autoprefixer",
 		"Backbone.js",
-		"Tomorrow Color Schemes",
+		"Node Completions",
 		"Djaneiro",
 		"AngularJS",
-		"PHP",
-		"All Autocomplete",
 		"lispindent",
-		"Vintage",
-		"RestructuredText",
-		"jQuery"
+		"Origami"
 	],
 	"line_padding_bottom": 1,
 	"line_padding_top": 1,
