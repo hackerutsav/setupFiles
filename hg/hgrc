@@ -1,0 +1,28 @@
+[ui]
+username = Sourabh Verma <sourabh.coder@gmail.com>
+verbose = True
+
+[extensions]
+color =
+progress =
+purge = 
+
+[color]
+status.modified = blue bold underline
+status.added = green bold
+status.removed = red bold
+status.deleted = cyan bold underline
+status.unknown = magenta bold underline
+status.ignored = black bold
+diff.diffline = magenta
+diff.extended = cyan bold
+diff.file_a = red bold
+diff.file_b = green bold
+diff.hunk = magenta
+diff.deleted = red
+diff.inserted = green
+diff.changed = white
+diff.trailingwhitespace = bold red_background
+
+[progress]
+delay = 1.5

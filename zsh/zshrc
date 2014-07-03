@@ -20,8 +20,9 @@ eval "$(fasd --init auto)"
 alias z='nocorrect fasd_cd -d'
 unalias s
 
-# general aliases
 source $ZSH/oh-my-zsh.sh
+
+# general aliases
 alias :q="exit"
 alias cls="clear"
 alias del="trash-put"
@@ -35,6 +36,7 @@ alias pacman="sudo apt-get"
 alias refresh="source ~/.zshrc"
 alias tmuxconfig="subl ~/.tmux.conf"
 alias tree="tree -L 3"
+alias vpnbook="sudo openvpn --config /home/sourabh/.vpnbook-euro1-tcp443.ovpn"
 alias weechat="weechat-curses"
 alias zshconfig="subl ~/.zshrc"
 
@@ -77,6 +79,9 @@ source /usr/local/bin/virtualenvwrapper.sh
 # Android SDK path
 export PATH=/home/sourabh/.android_sdk/tools:$PATH
 export PATH=/home/sourabh/.android_sdk/platform-tools:$PATH
+
+# Android Studio
+alias android_studio="/home/sourabh/.android-studio/bin/studio.sh"
 
 # sdcv
 alias dict="nocorrect sdcv"
