@@ -1,7 +1,7 @@
 # Path to your oh-my-zsh configuration.
 ZSH=$HOME/.oh-my-zsh
 setopt auto_cd
-
+plugins=(git npm sudo)
 # looks
 ZSH_THEME="robbyrussell"
 
@@ -50,13 +50,15 @@ export PATH=/home/sourabh/.node/bin:/opt/sbt/bin:$PATH
 
 # python
 alias ipy="ipython"
-alias inotebook="ipython notebook"
+alias inb="ipython notebook"
 alias py="python"
-alias simpleHttpServer="python -m SimpleHTTPServer"
+alias pyhttp="python -m SimpleHTTPServer"
 
-# gcc
-alias GCC="gcc -Wall -W -Werror"
-alias G++="g++ -Wall -W -Werror"
+# gcc / g++
+function gcc { name=$(echo $1 | cut -f1 -d'.'); /usr/bin/gcc "$1" -o "$name.bin" }
+function g++ { name=$(echo $1 | cut -f1 -d'.'); /usr/bin/g++ "$1" -o "$name.bin" }
+function GCC { name=$(echo $1 | cut -f1 -d'.'); /usr/bin/gcc -Wall -W -Werror "$1" -o "$name.bin" }
+function G++ { name=$(echo $1 | cut -f1 -d'.'); /usr/bin/g++ -Wall -W -Werror "$1" -o "$name.bin" }
 
 # tcc
 alias tcc="tcc -run -"
@@ -92,3 +94,10 @@ export DEBFULLNAME="Sourabh Verma"
 
 # gsutil
 export PATH=/home/sourabh/.gsutil:$PATH
+
+# change login background
+# sudo -i
+# xhost +SI:localuser:lightdm
+# su lightdm -s /bin/bash
+# gsettings set com.canonical.unity-greeter background 'path-to-image'
+# exit
