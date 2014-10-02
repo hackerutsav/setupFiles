@@ -1,6 +1,6 @@
 <snippet>
-    <content><![CDATA[{% $1${2:$SELECTION} %}
-    $3
-{% ${1/([^ ]+).*/$1/} %}]]></content>
-    <tabTrigger>jekylltag</tabTrigger>
+    <content><![CDATA[{% highlight $1 %}
+$0
+{% endhighlight %}]]></content>
+    <tabTrigger>jhighlight</tabTrigger>
 </snippet>
