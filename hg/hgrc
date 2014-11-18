@@ -5,15 +5,16 @@ verbose = True
 [extensions]
 color =
 progress =
-purge = 
+purge =
+shelve =
 
 [color]
-status.modified = blue bold underline
+status.modified = blue bold
 status.added = green bold
 status.removed = red bold
-status.deleted = cyan bold underline
-status.unknown = magenta bold underline
-status.ignored = black bold
+status.deleted = red bold
+status.unknown = magenta bold
+status.ignored = red bold
 diff.diffline = magenta
 diff.extended = cyan bold
 diff.file_a = red bold
@@ -21,8 +22,8 @@ diff.file_b = green bold
 diff.hunk = magenta
 diff.deleted = red
 diff.inserted = green
-diff.changed = white
+diff.changed = green
 diff.trailingwhitespace = bold red_background
 
 [progress]
-delay = 1.5
+delay = 0.5

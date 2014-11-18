@@ -13,21 +13,21 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"Backbone.js",
+		"Node Completions",
+		"Theme - Flatland",
+		"CSS Color Converter",
 		"lispindent",
-		"Theme - Glacier",
-		"Better CoffeeScript",
 		"Autoprefixer",
 		"Color Highlighter",
-		"ScalaFormat",
-		"jQuery",
-		"Node Completions",
-		"CSS Color Converter",
-		"RestructuredText",
-		"Theme - Flatland",
-		"AngularJS",
 		"Vintage",
-		"PHP"
+		"jQuery",
+		"PHP",
+		"RestructuredText",
+		"Backbone.js",
+		"ScalaFormat",
+		"Theme - Glacier",
+		"AngularJS",
+		"Better CoffeeScript"
 	],
 	"index_exclude_patterns":
 	[
@@ -39,6 +39,11 @@
 	"numix_small_tabs": true,
 	"open_files_in_new_window": false,
 	"overlay_scroll_bars": "enabled",
+	"rulers":
+	[
+		70,
+		79
+	],
 	"scala_worksheet_sync_views": true,
 	"scroll_past_end": true,
 	"shift_tab_unindent": true,
@@ -50,6 +55,5 @@
 	"trim_trailing_white_space_on_save": true,
 	"wide_caret": true,
 	"word_wrap": "auto",
-	"wrap_width": 120,
-	"rulers": [70, 79]
+	"wrap_width": 120
 }

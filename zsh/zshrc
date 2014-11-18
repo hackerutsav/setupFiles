@@ -81,6 +81,7 @@ source /usr/local/bin/virtualenvwrapper.sh
 # Android SDK path
 export PATH=/home/sourabh/.android_sdk/tools:$PATH
 export PATH=/home/sourabh/.android_sdk/platform-tools:$PATH
+export PATH=/home/sourabh/.android_sdk/build-tools:$PATH
 
 # Android Studio
 alias android_studio="/home/sourabh/.android-studio/bin/studio.sh"
