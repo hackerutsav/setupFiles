@@ -13,21 +13,20 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"Node Completions",
-		"Theme - Flatland",
-		"CSS Color Converter",
-		"lispindent",
+		"AngularJS",
 		"Autoprefixer",
-		"Color Highlighter",
-		"Vintage",
+		"Backbone.js",
+		"Better CoffeeScript",
+		"CSS Color Converter",
 		"jQuery",
+		"lispindent",
+		"Node Completions",
 		"PHP",
 		"RestructuredText",
-		"Backbone.js",
 		"ScalaFormat",
+		"Theme - Flatland",
 		"Theme - Glacier",
-		"AngularJS",
-		"Better CoffeeScript"
+		"Vintage"
 	],
 	"index_exclude_patterns":
 	[

@@ -1,20 +1,29 @@
 {
+	"in_process_packages":
+	[
+	],
+	"installed_dependencies":
+	[
+		"0_package_control_loader",
+		"bz2",
+		"ssl-linux"
+	],
 	"installed_packages":
 	[
 		"AdvancedNewFile",
 		"All Autocomplete",
 		"AngularJS",
+		"ASCII Decorator",
 		"Autoprefixer",
 		"Backbone.js",
 		"Better CoffeeScript",
 		"Brainfuck",
-		"Color Highlighter",
 		"ColorPicker",
 		"ColorSchemeSelector",
-		"CSS Color Converter",
 		"CSS Snippets",
 		"Dayle Rees Color Schemes",
 		"Djaneiro",
+		"Hex to HSL Color Converter",
 		"HTMLAttributes",
 		"JavaScript & NodeJS Snippets",
 		"jQuery",
@@ -22,6 +31,7 @@
 		"Markdown Preview",
 		"Node Completions",
 		"Origami",
+		"Package Control",
 		"PackageResourceViewer",
 		"Prolog",
 		"Restructured Text (RST) Snippets",

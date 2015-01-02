@@ -9,12 +9,6 @@
 	{ "keys": ["ctrl+q"], "command": "close_window" },
 	{ "keys": ["ctrl+alt+n"], "command": "advanced_new_file_new"},
 
-	{ "keys": ["ctrl+shift+c"], "command": "color_pick" },
-    {"keys": ["ctrl+alt+c"], "command": "colorconvert"},
-	// { "keys": ["shift+backspace"], "command": "right_delete" },
-
-	{ "keys": ["ctrl+alt+f"], "command": "prefixr" },
-
 	{ "keys": ["ctrl+t"], "command": "new_file" },
 
 	{ "keys": ["ctrl+p"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
